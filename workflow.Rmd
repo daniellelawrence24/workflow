@@ -1,0 +1,50 @@
+---
+title: "workflow"
+author: "Danielle Lawrence"
+date: "9/16/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+```{r}
+(y <- seq(1,10))
+x <- "Hello World"
+```
+
+4.4
+1. The code doesnt work because the second one has a "1" instead of an "i"
+spelling, punctuation, and capitalization matters
+```{r}
+library(tidyverse)
+
+
+
+filter(mpg, cyl == 8)
+filter(diamond, carat > 3) #i cant figure this one out
+```
+
+
+6.3
+```{r}
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy))
+```
+#if you highlight something in the code, then click insert R, then it creates a new r chunk with what was highlihgted. 
+
+
+
+ch. 8
+create a new project for each data analysis
+save in the project
+use relative paths
+
+
+
+
